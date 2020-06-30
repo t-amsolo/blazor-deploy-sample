@@ -26,7 +26,7 @@ namespace MessageFunction
             name = name ?? data?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
-                ? "This HTTP triggered function executed successfully. Enter your name and click the button for more personal."
+                ? "This HTTP triggered function executed successfully! Enter your name and click the button for more personal."
                 : $"👋 Hello, {name}.";
 
             return new OkObjectResult(responseMessage);
