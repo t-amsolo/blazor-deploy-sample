@@ -22,11 +22,11 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        message = await Http.GetStringAsync("https://bwasm-sayhellofunc.azurewebsites.net/api/SayHello?");
+        message = await Http.GetStringAsync("https://github.com/t-amsolo/blazor-deploy-sample/blob/master/MessageFunction/SayHello.cs?");
     }
 
     protected async Task SayHelloAsync()
     {
-        message = await Http.GetStringAsync($"https://bwasm-sayhellofunc.azurewebsites.net/api/SayHello?name={inputMessage}");
+        message = await Http.GetStringAsync($"https://github.com/t-amsolo/blazor-deploy-sample/blob/master/MessageFunction/SayHello.cs?name={inputMessage}");
     }
 }
