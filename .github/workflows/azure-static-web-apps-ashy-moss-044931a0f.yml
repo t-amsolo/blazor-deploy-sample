@@ -31,7 +31,7 @@ jobs:
           api_location: "MessageFunction" # Api source code path - optional
           app_artifact_location: "wwwroot" # Built app content directory - optional
         env: 
-          FUNCTION_LANGUAGE: "dot" 
+          FUNCTION_LANGUAGE: "dotnet" 
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
