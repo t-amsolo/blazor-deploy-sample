@@ -23,5 +23,3 @@ The following is required (and/or pre-requisite) to get this working similarly:
 
 ## Contact
 This was done by [Tim Heuer](https://twitter.com/timheuer) as a sample and to play around with different deployment options.  If you have ideas, reach out!
-
-edited by A'maya
